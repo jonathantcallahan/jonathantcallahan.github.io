@@ -7,6 +7,7 @@ body {
 	font-size: 15px;
 	background-image: url("pinkdust.png");
 	margin: 0px;
+	width: 960px;
 }
 
 #bio-image {
@@ -58,22 +59,20 @@ body {
 
 .bio {
 	float:left;
-	width: 60%;
+	width: 650px;
 	color: #777777;
 	background-color: #ffffff;
-	padding-right: 15px;
-	margin-left: 30px;
-	margin-right: 5px;
+	padding-right: 5px;
+	margin-left: 15px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #dddddd;
 }
 
 .contact-info {
-	margin-left: 30px;
-	padding-left: 15px;
-	padding-top: 15px;
-	width: 30%;
+	margin-left: 15px;
+	padding: 15px;
+	width: 270px;
 	float: left;
 	color: #777777;
 	background-color: #ffffff;
@@ -109,11 +108,12 @@ header {
 
 .contact-icons {
 	position: relative;
-	padding-top: 10px;
+	padding: 10px 0px;
 	width: auto;
 	float: left;
 	margin: 0px 12px;
 	text-align: center;
+
 
 }
 

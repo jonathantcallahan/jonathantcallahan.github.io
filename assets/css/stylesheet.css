@@ -114,9 +114,7 @@ header {
 	float: left;
 	margin: 0px 12px;
 	text-align: center;
-	display: flex;
-    justify-content: center;
-    flex-direction: column;
+
 }
 
 a {
@@ -168,4 +166,27 @@ footer {
 	height: 30px;
 	padding-top: 7px;
 	color: white;
+}
+
+.contact-info-form::after {
+    content: " "; /* 1 */
+    display: table;
+}
+
+input,textarea {
+	display: block;
+}
+
+#form {
+	padding: 15px;
+	line-height: 25px;
+}
+
+#submit-button {
+	margin-top: 10px;
+}
+
+textarea {
+	width: 300px;
+	height: 200px;
 }

@@ -8,6 +8,8 @@ body {
 	background-image: url("pinkdust.png");
 	margin: 0px;
 	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #bio-image {
@@ -129,7 +131,8 @@ a {
 }
 
 footer {
-	margin-left: 0px;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 6px;
 	font-size: 10px;
 	height: 40px;
@@ -139,7 +142,7 @@ footer {
 	bottom: 0;
 	background-color: gray;
 	color: darkgray;
-	width: 100%;
+	width: 960px;
 	border-top-style: solid;
 	border-top-width: 5px;
 	border-top-color: #4aaaa5;
@@ -184,6 +187,11 @@ input,textarea {
 
 #submit-button {
 	margin-top: 10px;
+	background-color: #4aaaa5;
+	color: white;
+	border: none;
+	text-align: center;
+	text-decoration: none;
 }
 
 textarea {

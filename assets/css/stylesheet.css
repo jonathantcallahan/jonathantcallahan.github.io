@@ -192,6 +192,8 @@ input,textarea {
 	border: none;
 	text-align: center;
 	text-decoration: none;
+	padding: 8px;
+	width: 70px;
 }
 
 textarea {

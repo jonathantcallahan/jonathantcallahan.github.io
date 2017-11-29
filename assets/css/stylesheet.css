@@ -87,10 +87,11 @@ body {
 #about-me-title {
 	clear: both;
 	font-family: 'Georgia';
+	font-size: 25px;
+	font-weight: bold;
 	color: #4aaaa5;
-	font-size: 29px;
 	margin-bottom: 10px;
-	margin-left: 15px;
+	margin-left: 104px;
 }
 
 h2 {

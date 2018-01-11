@@ -78,6 +78,8 @@ body {
 
 @media only screen and (max-width: 320px) {
 
+
+
     .banner {
         background-color: transparent;
         color: white;
@@ -104,4 +106,27 @@ body {
         margin-right: 0px;
     }
 
+    
+    #background-image {
+        position: absolute;
+        z-index: -5;
+        top: -50px;
+        height: 800px;
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+        overflow: hidden;
+    }
+
+    #overlay {
+        position: absolute;
+        z-index: -4;
+        top: -50px;
+        height: 800px;
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+        overflow: hidden;
+    }
+    
 }

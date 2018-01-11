@@ -5,7 +5,7 @@ head, body {
 }
 
 body {
-    
+    width: 100%;
 }
 
 .banner {
@@ -20,8 +20,14 @@ body {
     margin-right: 15px;
 }
 
+#cat-nav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 #name-banner{
-    display: inline-block;
+    clear: both;    display: inline-block;
     font-weight: bold;
 }
 
@@ -101,7 +107,6 @@ body {
 
     #cat-nav {
         width: 100%;
-        clear: both;
         text-align: center;
         margin-right: 0px;
     }
@@ -127,6 +132,11 @@ body {
         margin-right: auto;
         margin-left: auto;
         overflow: hidden;
+    }
+    main {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
     }
     
 }

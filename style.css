@@ -27,7 +27,8 @@ body {
 }
 
 #name-banner{
-    clear: both;    display: inline-block;
+    clear: both;    
+    display: inline-block;
     font-weight: bold;
 }
 
@@ -64,6 +65,8 @@ body {
     position: absolute;
     z-index: -6;
     width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .main-title {
@@ -81,8 +84,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: -28px;
-
 }
+
 
 
 
@@ -92,7 +95,22 @@ body {
 
 @media only screen and (max-width: 320px) {
 
+    #cat-nav {
+        margin-top: -30px;
+    }
 
+    #about-me-holder {
+        width: 200px;
+        background-color: #FF7F50;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -10px;
+    
+    }
+
+    .main-title {
+        margin-top: 42%;
+    }
 
     .banner {
         background-color: transparent;

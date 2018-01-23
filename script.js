@@ -19,8 +19,8 @@ $(".about-me-text").click(function(){
 })
 
 $(".project").hover((function(){
-    $(this).css("text-decoration","none")
+    $(this).css("text-decoration","none").css("color","white")
     console.log("test")
 }),function(){
-    $(this).css("text-decoration","underline")
+    $(this).css("text-decoration","underline").css("color","black")
 });

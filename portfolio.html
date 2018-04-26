@@ -22,7 +22,11 @@
         } 
 
         .project {
+            margin-left: 75px;
             text-decoration: underline;
+            color: rgb(55, 55, 55);
+            font-size: 25px;
+            font-weight: 300;
         }
 
         @media only screen and (max-width: 320px) {
@@ -32,12 +36,27 @@
         }
 
         html {
-            background: url("https://c1.staticflickr.com/2/1372/5184707221_5b8075c1ac_b.jpg") no-repeat center center fixed;
+            background: url("") no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
         }
+
+        .bold {
+        color: rgb(63, 23, 183);
+        font-weight: 700;
+        }
+
+            footer {
+        background-color: rgb(63, 23, 183);
+        position: fixed;
+        bottom: 0px;
+        height: 15px;
+        width: 100%
+    }
+
+
     </style>
     </head>
     <body>
@@ -62,16 +81,18 @@
             </div>
             <div id="about-me-holder">
                 <div class="project-holder">
-                    <h4 class="portfolio-list">SCHOOL PROJECTS</h4>
                     <div class="item-holder">
-                        <a href="https://jonathantcallahan.github.io/RPS-Multiplayer/"><h6 class="project">FIREBASE</h6></a>
-                        <a href="https://jonathantcallahan.github.io/giphy-api-homework/"><h6 class="project">APIs &amp; AJAX</h6></a>
-                        <a href="https://jonathantcallahan.github.io/trivia-game/"><h6 class="project">jQUERY &amp; JAVASCRIPT</h6></a>
-                        <a href="https://jonathantcallahan.github.io/week-4-game/"><h6 class="project">jQUERY</h6></a>
-                        <a href="https://jonathantcallahan.github.io/hangman-game/"><h6 class="project">JAVASCRIPT</h6></a>
+                        <h6 class='project'>CLASS PROJECTS</h6>
+                        <a href="https://boiling-headland-16296.herokuapp.com/"><h6 class="project"><span class='bold'>NODE, EXPRESS,&amp; MONGO </span>| NYT ARTICLE SCRAPER</h6></a>
+                        <a href="https://arcane-temple-24813.herokuapp.com/user/login"><h6 class="project"><span class='bold'>NODE, EXPRESS &amp; MONGO </span>| TAMAGOTCHI GAME</h6></a>
+                        <a href="https://jonathantcallahan.github.io/project-1/"><h6 class="project"><span class='bold'>JAVASCRIPT, FIREBASE &amp; APIs </span>| APP THAT AGGREGATES DATA BASED ON USER INPUT</h6></a>
+                        <a href="https://react-clicky.herokuapp.com/"><h6 class="project"><span class='bold'>REACT</span> | MEMORY CLICK GAME</h6></a>
                     </div>
             </div>
         </main>
+        <footer>
+
+        </footer>
 
         <script src="https://code.jquery.com/jquery-3.2.1.js"
         integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
